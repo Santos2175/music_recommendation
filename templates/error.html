@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        // Redirect to index.html after 3 seconds
+        setTimeout(function() {
+            window.location.href = "/";
+        }, 3000);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Error</h1>
+        <p>User Invalid or User may be new with no prior history. Enter the existing User ID</p>
+    </div>
+</body>
+</html>
