@@ -7,7 +7,11 @@ from keras.models import load_model
 app = Flask(__name__, static_url_path='/static')
 
 # Load the model
+<<<<<<< HEAD
 model = load_model(os.path.join('model', 'music_recommend.h5'))
+=======
+model = load_model(os.path.join('model','music_recommend.h5'))
+>>>>>>> 4242c5d3e4f36a268398e4c83d72dbc6056199df
 
 # Load the dataset containing user IDs, song IDs, and ratings
 data = pd.read_csv(os.path.join('input', 'merged_dataset.csv'))
